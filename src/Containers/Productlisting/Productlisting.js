@@ -6,7 +6,8 @@ import MainNav from '../../components/MainNav/MainNav';
 import Footer from '../../components/Footer/Footer'
 
 const productlisting =(props)=>{
-    let allproducts=Sampledata.products.map(function(item){ 
+    
+    let allproducts=props.products.map(function(item){ 
         return(
             <Product name={item.name} price={item.price} img={item.img}></Product>
         );

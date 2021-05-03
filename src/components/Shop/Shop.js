@@ -4,9 +4,9 @@ import Product from '../../components/Product/Product'
 import Sampledata from '../../sampledata/sampledata.json'
 import MainNav from '../../components/MainNav/MainNav';
 import Footer from '../../components/Footer/Footer'
-
+import {connect} from 'react-redux';
 const productlisting =(props)=>{
-    let allproducts=Sampledata.products.map(function(item){ 
+    let allproducts=props.products.map(function(item){ 
         return(
             <Product name={item.name} price={item.price} img={item.img}></Product>
         );
@@ -29,4 +29,9 @@ const productlisting =(props)=>{
     );
     };
 
-export default productlisting;
+    const mapStateToProps=state=>{
+        return{
+            products:state.products,
+        }
+      }
+export default connect(mapStateToProps)(productlisting);

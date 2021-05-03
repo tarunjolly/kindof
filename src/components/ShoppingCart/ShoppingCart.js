@@ -13,6 +13,7 @@ const cart =(props)=>(
              <div class="row">
                <div class="col-8 item">
                 <h1>Shopping Cart</h1>
+                
                 <button className={classes.cartbutton}type="button">Next</button>
                 <button className={classes.cartbutton}type="button">Cancel</button>
                </div>
