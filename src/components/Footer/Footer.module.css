@@ -1,0 +1,21 @@
+footer{
+  background-color: var(--pink)!important;
+  height:50px;
+  
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding:10px;
+    align-items: center;
+    justify-content: center;
+
+  }
+ 
+  .footerlinks{
+    color:var(--white)!important;
+    padding:0 20px;
+    text-decoration: none!important;
+
+  }
+  

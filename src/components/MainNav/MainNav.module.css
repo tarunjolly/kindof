@@ -1,0 +1,31 @@
+.nav .row{
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    
+}
+
+.mainnav{
+  color:var(--dark)!important;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding:10px;
+    align-items: center;
+    justify-content: center;
+  }
+  a{
+    padding:0 20px;
+    text-decoration: none!important;
+    color:var(--dark)!important;
+  }
+  .navbutton{
+    border: none;
+    background-color:var(--lightpink)!important;
+    border-radius: 5px;
+    padding:5px 10px!important;
+    color:var(--pink);
+  }
+  .fa-cart-plus{
+    padding-right:10px;
+  }

@@ -1,0 +1,19 @@
+.paypallogo{
+    width:20%;
+}
+.paypara{
+    font-size: 12px;
+}
+.cartbutton{
+    width: 30%;
+    padding: 5px;
+    margin-right:10px;
+    background:var(--pink);
+    color: white;
+    font-size: 17px;
+    border:none;
+    cursor: pointer;
+  }
+  .cartcontainer{
+    margin:40px;
+}

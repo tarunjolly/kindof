@@ -1,0 +1,32 @@
+.contactform{
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+}
+.contactus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contactbutton{
+    width: 20%;
+    padding: 5px;
+    margin-right:10px;
+    background:var(--pink);
+    color: white;
+    font-size: 17px;
+    border:none;
+    cursor: pointer;
+    text-align: center;
+    margin:auto;
+}
+
+.edit_hover_class .ic{
+    visibility:hidden;
+  }
+  .edit_hover_class:hover .ic {
+   visibility:visible;
+   color:var(--pink)!important;
+  }
+  
